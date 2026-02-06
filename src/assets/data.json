@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+    "firstName": "John",
+    "lastName": "Smith",
+    "class": "10A",
+    "address": "123 Main Street",
+    "guardianPhoneNo": "+1-555-0101"
+  },
+  {
+    "id": 2,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "class": "10B",
+    "address": "456 Oak Avenue",
+    "guardianPhoneNo": "+1-555-0102"
+  },
+  {
+    "id": 3,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Michael",
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "class": "10A",
+    "address": "789 Pine Road",
+    "guardianPhoneNo": "+1-555-0103"
+  },
+  {
+    "id": 4,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emily",
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "class": "10C",
+    "address": "321 Elm Street",
+    "guardianPhoneNo": "+1-555-0104"
+  },
+  {
+    "id": 5,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
+    "firstName": "David",
+    "lastName": "Wilson",
+    "class": "10B",
+    "address": "654 Maple Drive",
+    "guardianPhoneNo": "+1-555-0105"
+  },
+  {
+    "id": 6,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jessica",
+    "firstName": "Jessica",
+    "lastName": "Martinez",
+    "class": "10A",
+    "address": "987 Cedar Lane",
+    "guardianPhoneNo": "+1-555-0106"
+  },
+  {
+    "id": 7,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alexander",
+    "firstName": "Alexander",
+    "lastName": "Garcia",
+    "class": "10C",
+    "address": "147 Birch Street",
+    "guardianPhoneNo": "+1-555-0107"
+  },
+  {
+    "id": 8,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Olivia",
+    "firstName": "Olivia",
+    "lastName": "Rodriguez",
+    "class": "10B",
+    "address": "258 Spruce Avenue",
+    "guardianPhoneNo": "+1-555-0108"
+  },
+  {
+    "id": 9,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Christopher",
+    "firstName": "Christopher",
+    "lastName": "Lee",
+    "class": "10A",
+    "address": "369 Willow Road",
+    "guardianPhoneNo": "+1-555-0109"
+  },
+  {
+    "id": 10,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sophia",
+    "firstName": "Sophia",
+    "lastName": "Taylor",
+    "class": "10C",
+    "address": "741 Ash Drive",
+    "guardianPhoneNo": "+1-555-0110"
+  },
+  {
+    "id": 11,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Daniel",
+    "firstName": "Daniel",
+    "lastName": "Anderson",
+    "class": "10B",
+    "address": "852 Fir Street",
+    "guardianPhoneNo": "+1-555-0111"
+  },
+  {
+    "id": 12,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Isabella",
+    "firstName": "Isabella",
+    "lastName": "Thomas",
+    "class": "10A",
+    "address": "963 Larch Avenue",
+    "guardianPhoneNo": "+1-555-0112"
+  },
+  {
+    "id": 13,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Matthew",
+    "firstName": "Matthew",
+    "lastName": "Moore",
+    "class": "10C",
+    "address": "135 Oak Street",
+    "guardianPhoneNo": "+1-555-0113"
+  },
+  {
+    "id": 14,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ava",
+    "firstName": "Ava",
+    "lastName": "Jackson",
+    "class": "10B",
+    "address": "246 Pine Avenue",
+    "guardianPhoneNo": "+1-555-0114"
+  },
+  {
+    "id": 15,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Andrew",
+    "firstName": "Andrew",
+    "lastName": "White",
+    "class": "10A",
+    "address": "357 Maple Street",
+    "guardianPhoneNo": "+1-555-0115"
+  },
+  {
+    "id": 16,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mia",
+    "firstName": "Mia",
+    "lastName": "Harris",
+    "class": "10C",
+    "address": "468 Elm Avenue",
+    "guardianPhoneNo": "+1-555-0116"
+  },
+  {
+    "id": 17,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=James",
+    "firstName": "James",
+    "lastName": "Martin",
+    "class": "10B",
+    "address": "579 Cedar Street",
+    "guardianPhoneNo": "+1-555-0117"
+  },
+  {
+    "id": 18,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Charlotte",
+    "firstName": "Charlotte",
+    "lastName": "Thompson",
+    "class": "10A",
+    "address": "680 Birch Avenue",
+    "guardianPhoneNo": "+1-555-0118"
+  },
+  {
+    "id": 19,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Benjamin",
+    "firstName": "Benjamin",
+    "lastName": "Clark",
+    "class": "10C",
+    "address": "791 Spruce Street",
+    "guardianPhoneNo": "+1-555-0119"
+  },
+  {
+    "id": 20,
+    "studentAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma",
+    "firstName": "Emma",
+    "lastName": "Lewis",
+    "class": "10B",
+    "address": "802 Willow Avenue",
+    "guardianPhoneNo": "+1-555-0120"
+  }
+]

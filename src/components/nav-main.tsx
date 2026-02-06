@@ -10,7 +10,13 @@ import {
 } from "@/components/ui/sidebar";
 import type { NavMainItem } from "@/types/index";
 
-export function NavMain({ items }: { items: NavMainItem[] }) {
+export function NavMain({
+  items,
+  onNavSelect,
+}: {
+  items: NavMainItem[];
+  onNavSelect: (title: string) => void;
+}) {
   return (
     <SidebarGroup>
       <SidebarGroupContent className="flex flex-col gap-2">
@@ -36,7 +42,10 @@ export function NavMain({ items }: { items: NavMainItem[] }) {
         <SidebarMenu>
           {items.map((item) => (
             <SidebarMenuItem key={item.title}>
-              <SidebarMenuButton tooltip={item.title}>
+              <SidebarMenuButton
+                tooltip={item.title}
+                onClick={() => onNavSelect?.(item.title)}
+              >
                 {item.icon && <item.icon />}
                 <span>{item.title}</span>
               </SidebarMenuButton>

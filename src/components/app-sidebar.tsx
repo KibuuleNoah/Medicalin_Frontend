@@ -1,20 +1,15 @@
 import * as React from "react";
 import {
   IconCamera,
-  IconChartBar,
-  IconDashboard,
   IconDatabase,
   IconFileAi,
   IconFileDescription,
   IconFileWord,
-  IconFolder,
   IconHelp,
   IconInnerShadowTop,
-  IconListDetails,
   IconReport,
   IconSearch,
   IconSettings,
-  IconUsers,
 } from "@tabler/icons-react";
 
 import { NavMain } from "@/components/nav-main";
@@ -33,9 +28,9 @@ import type { NavMainItem } from "@/types/index";
 
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
+    name: "Michael Scott",
+    email: "m.scott@medicalin.com",
+    avatar: "/logo",
   },
   navClouds: [
     {
@@ -123,8 +118,12 @@ const data = {
 
 export function AppSidebar({
   navMainItems,
+  onNavSelect,
   ...props
-}: React.ComponentProps<typeof Sidebar> & { navMainItems: NavMainItem[] }) {
+}: React.ComponentProps<typeof Sidebar> & {
+  navMainItems: NavMainItem[];
+  onNavSelect: (title: string) => void;
+}) {
   return (
     <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>
@@ -143,7 +142,7 @@ export function AppSidebar({
         </SidebarMenu>
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={navMainItems} />
+        <NavMain items={navMainItems} onNavSelect={onNavSelect} />
         {/* <NavGroupCustom items={data.documents} label="Documents" /> */}
         <NavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
